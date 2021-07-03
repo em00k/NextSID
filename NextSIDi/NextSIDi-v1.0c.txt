@@ -1,0 +1,269 @@
+
+       *   * ***** *   * ***** ***** * **** 
+       **  * *      * *    *   *     * *   *
+       * * * *****   *     *   ***** * *   *
+       *  ** *      * *    *       * * *   *
+       *   * ***** *   *   *   ***** * *****
+       *
+       *
+
+
+
+                            Build v1.0c 03/07/2021
+
+                           (c)2021 9bitcolor/em00k
+
+
+
+  About
+
+Next SID Interface is a free mouse-driven audio
+application for the ZX Spectrum Next. It showcases
+'NextSID', a three-channel audio processing engine
+for the built-in AY/YM programmable sound
+generators.
+
+NextSID filters the tone and volume of the PSG
+using custom waveforms defined in the app. The
+default pattern for each of the three channels is
+set to a two-sample squarewave, characterising
+NextSID's signature sound.
+
+NextSID will produce 'phat' tones when complex
+waveform patterns are applied to a channel.
+
+The engine does not attempt to emulate the C-64
+legendary SID chip but does belong to a similar
+class of players found in the Atari ST demo scene.
+
+--------------------------------------------------
+
+  Operation
+
+The mouse-driven user interface displays the
+parameters for NextSID on a single screen for
+convenience. A browser for the built-in PT3 songs
+can be opened by clicking the disk icon.
+
+The mouse pointer will change to a black arrow or
+cross-hair when hovering above a clickable region
+of the UI. The Left and right mouse buttons are
+used to change parameters and select options.
+
+Cursor keys navigate options and this user guide.
+Keyboard shortcuts are also implemented.
+
+The enter key restarts the app, resetting channel
+defaults but preserves the current song selection.
+
+--------------------------------------------------
+
+  User interface
+
+The display contains six regions;
+
+  1. Top row; System status
+  2. Top middle; Visualizer
+  3. Far left; Icons
+  4. Far right; Channel settings
+  5. Main; Waveform grid/song browser/user guide
+  6. Bottom row; Song name/tooltip message
+
+
+  1. System status
+
+The ZX Spectrum Next system and app status is
+displayed at the top of the screen. Video refresh
+rate and machine timing options can be changed.
+
+This user guide is viewed in the app by clicking
+the version number at the top right of the screen.
+Cursor keys UP/DOWN/LEFT/RIGHT navigate the text.
+
+
+  2. Visualizer
+
+A visualizer is displayed near the top of the
+screen with two main modes.
+
+A 112 band analyser mode shows the PSG's spectrum
+for active channels.
+
+The channel mode displays customisable analysers
+for each of the three PSG channels. Channels set
+to PSG display the spectrum as above. Channels
+with SID enabled simulate the effect of the
+waveform pattern data on the PSG's tone and
+amplitude.
+
+
+  3. Icons
+
+Four icons can be found at the left of the screen;
+
+  DISK: Open song browser
+  WAVE: Visualizer mode
+  LOOP: Song loop ON/OFF
+  PLAY: Pause/play current song
+
+
+  4. Channel settings
+
+The three PSG channels are named A, B, C. Their
+settings can be found to the right of the screen.
+
+Three modes exist for each channel, configurable
+with a mouse button click;
+
+   OFF: The channel is muted
+        - outputs silence
+   PSG: The default tone of the PSG
+        - bypasses all parameters
+   SID: Waveform and tuning are applied
+        - affects the timbre and volume
+
+The cursor keys can be used to move the selection
+bar through the options and edit their values. The
+mouse can also be used to select and edit the
+values.
+
+Keyboard shortcuts A, B, C can be used to select
+the channel.
+
+
+The following five settings are as follows;
+
+  WAVE: Waveform edit status **READ ONLY**;
+        default/user
+  DUTY: Waveform 'duty cycle' sample length;
+        2, 3, 4, 5, 6, 7, 8, 12, 16, 32
+TUNING: Master PSG tuning in semitones;
+        A, A#, C, C#, D, D#, E, F, F#, G, G#
+OCTAVE: Master PSG tuning in octaves;
+        -3, -2, -1, 0, +1, +2, +3
+DETUNE: 16-bit signed value applied to the SID
+        period
+
+The default tuning is set to A-4.
+
+Please note that setting the octave and tuning
+too high can produce frequencies beyond the range
+of the engine - case by case for each song.
+
+The detune option can be reset to zero by clicking
+the third mouse button on compatible input
+devices, this would be a scroll wheel press in
+most cases.
+
+
+  5. Main
+
+The main central display shows the waveform
+editing grid for the currently selected channel -
+matching the cursor highlight bar. The default
+start-up channel selection is set to B.
+
+A status bar above the waveform displays the
+sample value, grid coordinates, channel selection 
+and configurable PSG modes.
+
+The red bars in the grid represent the waveform
+pattern data. The left mouse button is used to
+drag the bars to define a sample range between 1
+and 128 - this changes the sound and volume of the
+currently selected channel when set to 'SID' mode.
+
+The right mouse button resets the pattern waveform
+to the default repeating squarewave.
+
+It should be noted that odd length pattern sizes
+may cause a detune effect.
+
+
+  6. Tooltips
+
+Tooltips are displayed at the bottom of the
+screen. The default message shows the current PT3
+song name. The song can be changed by clicking the
+'PT3:' text with the left or right mouse button.
+
+--------------------------------------------------
+
+  Error messages
+
+The application will display a stop screen with a
+message if it encounters an unrecoverable error.
+
+Many of the errors relate to SD card operation.
+The remaining errors deal with core and NextZXOS
+compatibility.
+
+Emulators may trigger a stop screen. Use the -emu
+command line switch when running under CSpect.
+
+--------------------------------------------------
+
+  How does it work?
+
+The ZX Spectrum Next's Counter/Timer Circuit (CTC)
+is used to rapidly modify the PSG's amplitude. The
+CTC also provides a rock-solid playback tempo no
+longer tied to the video display.
+
+NextSID has two modules - the PT3 player codebase
+extension and the timer driven PSG processor.
+
+The popular VT1-MFX ZX Spectrum music player was
+chosen to drive NextSID. Our engine is hooked into
+the PSG output stage of the player at code level.
+The data sent to the PSG registers by VT1-MFX
+tunes the timer amplitude processor. Note, NextSID
+cannot modulate channels using envelope mode.
+
+Waveform patterns provide < 50% duty cycle data -
+modulating the PSG squarewaves.
+
+The result is enhanced timbre, adding character
+to the default PSG tones.
+
+NextSID uses an average of 9-15% CPU @ 28Mhz.
+
+--------------------------------------------------
+
+  FAQ
+
+  1. NextSIDi is provided 'as is'.
+  2. Permission is granted to distribute NextSIDi
+     free of charge.
+  3. The 'Ice World' wallpaper artwork is subject
+     to copyright.
+  4. The app contains a modified version of the
+     VT1-MFX PT3 player. No claim is ever made by
+     the developers to have written VT1-MFX.
+  5. Copyright is retained by the authors of the
+     included PT3 files.
+  6. NextSIDi is compatible with 1MB ZX Spectrum
+     Nexts running core 3.01.10 or above.
+  7. NextSIDi may not function as intended under
+     emulation.
+  8. Binaries and source code for the engine are
+     available upon request.
+  9. You can contact us online through the
+     official ZX Spectrum Next Facebook group.
+
+--------------------------------------------------
+
+I would like to give a massive thank you to em00k
+for inspiring me to create this fun project.
+
+I would also like to thank Allen Albright for
+adding CTC timers to the ZX Spectrum Next core -
+making NextSID possible.
+
+Respect to the developers of the VT1-MFX player
+and the composers of the included PT3 files.
+
+9bitcolor.
+
+
+

@@ -1,0 +1,62 @@
+z00m's covermania (CoMa)
+========================
+
+Small Amiga chiptunes serie:
+----------------------------
+Amiga Chiptune 01 - conversion from Amiga, author WOTW
+Amiga Chiptune 02 - conversion from Amiga, author WOTW
+Amiga Chiptune 03 - conversion from Amiga, author WOTW
+Amiga Chiptune 04 - conversion from Amiga, author CARTOON
+Amiga Chiptune 05 - conversion from Amiga, author WOTW
+Amiga Chiptune 06 - conversion from Amiga, author WOTW
+Amiga Chiptune 07 - conversion from Amiga, author WOTW
+Amiga Chiptune 08 - conversion from Amiga, author 4MAT
+Amiga Chiptune 09 - conversion from Amiga, author WOTW
+
+Other conversions from Amiga:
+-----------------------------
+Shoot 'Em Up - conversion from Amiga, author NUKE
+Pink Sunset - conversion from Amiga, author TEMPEST (Zen-bowling)
+Catch That Mouse - conversion from Amiga, author REFLEX (Spotlights)
+Mary Jane - conversion from Amiga, author STARGAZER
+Trainer Or Die - conversion from Amiga, author MELODEE
+Downtown - conversion from song I have recorded on tape, probably from Amiga, don't know original name and author
+Ice Age - conversion from Amiga, author TEMPEST
+Defloration - conversion from Amiga, author EMAX / TRSI
+This Is Emptines - conversion from Amiga, author EPSILON@RENEGADE
+Behind The Walls - conversion from Amiga, author MANTRONIX
+Henriette - conversion from Amiga, author STARGAZER (Pazasol)
+Strike Force Intro - conversion from Amiga, don't know original author.
+
+
+Conversions from PC modules:
+----------------------------
+Wet Dream - conversion from PC, don't know original auhor
+Ratzeburg Rave - conversion from PC, author INFRA
+Artificial - my remix of PC module by JOFRE
+Step Into Darkness - my very old-and-dusty PC module (must be one of my first attempts to do music on PC :-), now it's converted to AY
+Unreal 2 - Legendary song from Second Reality demo, ENJOY IT! Original author PURPLE MOTION (Song is splitted to 2 modules, because PT has too few patterns for whole song)
+Flip - O - PC chiptune, original author KENET.
+Oh - AY Sexy Thing ! - PC chiptune, original authors DUBMOOD&ZABUTOM (Oh 2149 Sexy Thing!). Finished 4th on Millenium 2003.
+Ninja Starts Skool - PC chiptune, original author DUBMOOD (Ninja Starts School)
+Camouflage - PC chiptune, original author NADOM (Mega Man 2)
+Karma and Karma (Extended Version) - conversion from PC chiptune, original author JELLYDOG (Chippie 2)
+
+
+Conversions from real songs:
+----------------------------
+Alf Theme - conversion from real song, don't know original author
+Magnetic Fields - conversion from real song, author J.M.JARRE
+Zoolook - conversion from real song, author J.M.JARRE (I have to rework this tune coz I don't like it :-)
+
+Other songs:
+------------
+Another Moon - my own composition (first music that I done in ProTracker 3.51)
+F.I.R.E. - remake of FUXOFT's ingame music (don't get too seriously this, I was little bit drunked when I tracked this :-)
+X - Files (sleepy remix) - my own viariations to X-Files theme, 2nd on Syndicate 2003
+White Xmas - my variations to well known christmas melody, don't know original name and author
+
+Finished but not released songs (not included in archive):
+--------------------------------
+Odd Connection - coverversion of ZABUTOM's PC chiptune. Done only for 4ever5. Will be released on 4ever5
+Wings Of Death - conversion from Amiga, well known melody by Jochen Hippel. Will be released on 4ever5
