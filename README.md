@@ -1,7 +1,7 @@
 # NextSID
  AtariSID like engine for the ZX Next
 
- NextSID engine coded by 9Bitcolor
+ NextSID engine coded by 9bitcolor
 
  Here you will find two players containing an engine for playing back PT3 files that allows you to apply custom duty cycles on the AY channels to produce a SID like sounds.
 
@@ -16,7 +16,7 @@
  You will require a mouse to use thie player. Click Load PT3 and enter the PT3 folder. Once you click a tune it will load and begin player. To return back the main screen RIGHT CLICK. 
  All the songs include have an NT3 of the same name and this will be automatically loaded and set the parameters. When you click Load NT3 it will load this config file again. When you wish to make changes you can do so by clicking "Save NT3". If you make a huge mess simply click "Reset" to reset the params. 
 
-**NextSID Interface was written by 9Bitcolor 1.0c**
+**NextSID Interface was written by 9bitcolor 1.0c**
  
 ![NextSID Interface](NextSIDi.png)
 
