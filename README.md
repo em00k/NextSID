@@ -5,7 +5,7 @@
 
  Here you will find two players containing an engine for playing back PT3 files that allows you to apply custom duty cycles on the AY channels to produce a SID like sounds.
 
- See 9BitColor's readme inside the NexSIDi folder for more details. !9BitColor's ReadMe](NextSIDi/NextSIDi-v1.0c.txt)
+ See 9BitColor's readme inside the NexSIDi folder for more details. ![9BitColor's ReadMe](NextSIDi/NextSIDi-v1.0c.txt)
 
  **NextSIDPlayer was written by em00k 1.0**
 
