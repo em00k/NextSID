@@ -1,5 +1,5 @@
 # NextSID
- AtariSID like engine for the ZX Next
+ AtariSID like engine for the ZX Next (**You will need core 3.01.10**)
 
  NextSID engine coded by 9bitcolor
 
